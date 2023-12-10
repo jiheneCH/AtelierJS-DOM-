@@ -1,0 +1,57 @@
+body{
+    font-family:verdana;
+}
+body,header,footer,section,article,p{
+    font-family:"tribuchet";
+    margin:0ps;
+
+}
+header{
+    background-color:red;
+    color: white;
+   
+}
+.lien{
+color:red;
+
+}
+.lien,.nav-link:Visited{
+    color:black;
+}
+.lien,.nav-link:hover {
+    color: yellow; 
+}
+
+.lien,.nav-link:active {
+    color: green;
+}
+header a{
+    text-decoration:none;
+
+}
+
+#Inscription{
+    text-decoration: underline;
+    color: red;
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+#form {
+    width: 600px;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+#submit,#btn2 {
+    background-color: #DED983;
+    font-size: 1.2em;
+    color: #345071;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+footer {
+    background-color: red;
+    color: white;
+}
